@@ -1,0 +1,18 @@
+#!name=叮咚买菜
+#!desc=拦截叮咚买菜开屏、开屏预加载与首页弹窗广告；保留绿卡会员与正常购物接口。
+#!category=Proxy Suite
+#!homepage=https://github.com/AnTong-Git/Proxy_Suite_Modules
+#!raw-url=https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/surge/Dingdong.sgmodule
+
+[Map Local]
+# 开屏广告
+^https://maicai\.api\.ddxq\.mobi/advert/startUpScreen(?:\?[^#]*)?$ data-type=base64 data="eyJjb2RlIjowLCJtc2ciOiLor7fmsYLmiJDlip8iLCJzdWNjZXNzIjp0cnVlLCJkYXRhIjp7ImFkcyI6W119fQ==" status-code=200 header="Content-Type:application/json"
+# 开屏预加载
+^https://maicai\.api\.ddxq\.mobi/advert/getPreloadAd(?:\?[^#]*)?$ data-type=base64 data="eyJjb2RlIjowLCJtc2ciOiLor7fmsYLmiJDlip8iLCJzdWNjZXNzIjp0cnVlLCJkYXRhIjp7fX0=" status-code=200 header="Content-Type:application/json"
+# 首页活动弹窗
+^https://maicai\.api\.ddxq\.mobi/homeApi/getHomeAdPop(?:\?[^#]*)?$ data-type=base64 data="eyJjb2RlIjowLCJtc2ciOiLor7fmsYLmiJDlip8iLCJzdWNjZXNzIjp0cnVlLCJkYXRhIjp7fX0=" status-code=200 header="Content-Type:application/json"
+# 首页 Vega 弹窗引导
+^https://maicai\.api\.ddxq\.mobi/guide-service/config/guidePage(?:\?[^#]*)?$ data-type=base64 data="eyJjb2RlIjowLCJtc2ciOiJvayIsInN1Y2Nlc3MiOnRydWUsImRhdGEiOnsiaG9tZVBhZ2UiOltdfX0=" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% maicai.api.ddxq.mobi

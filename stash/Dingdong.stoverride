@@ -1,0 +1,34 @@
+name: '叮咚买菜'
+desc: '拦截叮咚买菜开屏、开屏预加载与首页弹窗广告；保留绿卡会员与正常购物接口。'
+category: 'Proxy Suite'
+homepage: 'https://github.com/AnTong-Git/Proxy_Suite_Modules'
+raw-url: 'https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/stash/Dingdong.stoverride'
+
+http:
+  mitm:
+    - 'maicai.api.ddxq.mobi'
+  mock:
+    # 开屏广告
+    - match: '^https://maicai\.api\.ddxq\.mobi/advert/startUpScreen(?:\?[^#]*)?$'
+      status-code: 200
+      headers:
+        Content-Type: 'application/json'
+      text: '{"code":0,"msg":"请求成功","success":true,"data":{"ads":[]}}'
+    # 开屏预加载
+    - match: '^https://maicai\.api\.ddxq\.mobi/advert/getPreloadAd(?:\?[^#]*)?$'
+      status-code: 200
+      headers:
+        Content-Type: 'application/json'
+      text: '{"code":0,"msg":"请求成功","success":true,"data":{}}'
+    # 首页活动弹窗
+    - match: '^https://maicai\.api\.ddxq\.mobi/homeApi/getHomeAdPop(?:\?[^#]*)?$'
+      status-code: 200
+      headers:
+        Content-Type: 'application/json'
+      text: '{"code":0,"msg":"请求成功","success":true,"data":{}}'
+    # 首页 Vega 弹窗引导
+    - match: '^https://maicai\.api\.ddxq\.mobi/guide-service/config/guidePage(?:\?[^#]*)?$'
+      status-code: 200
+      headers:
+        Content-Type: 'application/json'
+      text: '{"code":0,"msg":"ok","success":true,"data":{"homePage":[]}}'
