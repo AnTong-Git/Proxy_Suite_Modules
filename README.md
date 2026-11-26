@@ -18,7 +18,7 @@ Proxy Suite 自维护 App 去广告远程模块仓库，托管无第三方作者
 - Surge 原始链接：`https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/surge/Dingdong.sgmodule`
 - Surge URL Scheme 唤起（复制到 Safari 地址栏或 iOS 备忘录点击）：`surge:///install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2FAnTong-Git%2FProxy_Suite_Modules%2Fmain%2Fsurge%2FDingdong.sgmodule`
 - Shadowrocket 原始链接：`https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/shadowrocket/Dingdong.srmodule`
-- 图标文件：[Dingdong.png](icons/Dingdong.png)（`https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/icons/Dingdong.png`）
+- 图标文件：[Dingdong.png](icons/Dingdong.png)（`https://fastly.jsdelivr.net/gh/AnTong-Git/Proxy_Suite_Modules@main/icons/Dingdong.png`）
 
 ### 麦当劳
 
@@ -27,7 +27,7 @@ Proxy Suite 自维护 App 去广告远程模块仓库，托管无第三方作者
 - Surge 原始链接：`https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/surge/McDonalds.sgmodule`
 - Surge URL Scheme 唤起（复制到 Safari 地址栏或 iOS 备忘录点击）：`surge:///install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2FAnTong-Git%2FProxy_Suite_Modules%2Fmain%2Fsurge%2FMcDonalds.sgmodule`
 - Shadowrocket 原始链接：`https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/shadowrocket/McDonalds.srmodule`
-- 图标文件：[McDonalds.png](icons/McDonalds.png)（`https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/icons/McDonalds.png`）
+- 图标文件：[McDonalds.png](icons/McDonalds.png)（`https://fastly.jsdelivr.net/gh/AnTong-Git/Proxy_Suite_Modules@main/icons/McDonalds.png`）
 
 ## 使用说明
 
