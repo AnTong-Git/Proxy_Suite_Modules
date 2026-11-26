@@ -1,6 +1,7 @@
 #!name=叮咚买菜
 #!desc=拦截叮咚买菜开屏、开屏预加载与首页弹窗广告；保留绿卡会员与正常购物接口。
 #!category=Proxy Suite
+#!icon=https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/icons/Dingdong.png
 #!homepage=https://github.com/AnTong-Git/Proxy_Suite_Modules
 #!raw-url=https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/surge/Dingdong.sgmodule
 
