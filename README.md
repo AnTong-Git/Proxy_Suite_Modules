@@ -1,6 +1,6 @@
 # Proxy_Suite_Modules
 
-Proxy Suite 自维护 App 去广告远程模块仓库，托管无第三方作者覆盖或上游模块存在缺陷的独立单 App 增强模块。坚持“一 App 一独立模块”，不做大合集，方便各自配置独立图标、单独开关与独立更新。
+Proxy Suite 自维护 App 去广告远程模块仓库，托管无第三方作者覆盖或上游模块存在缺陷的独立单 App 增强模块。坚持“一 App 一独立模块”，不做大合集；三端模块标题统一采用与 App 原图标配色对齐的 Emoji 标识（可选附带自托管 PNG 图标），方便客户端直观辨识、单独开关与独立更新。
 
 ## 模块列表
 
@@ -11,7 +11,7 @@ Proxy Suite 自维护 App 去广告远程模块仓库，托管无第三方作者
 
 ## 远程订阅与一键安装
 
-### 叮咚买菜
+### 🥬 叮咚买菜
 
 - Stash 一键安装（GitHub 页面可直接点击）：[点击直接拉起 Stash 安装](https://link.stash.ws/install-override/raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/stash/Dingdong.stoverride)
 - Stash 原始链接：`https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/stash/Dingdong.stoverride`
@@ -20,7 +20,7 @@ Proxy Suite 自维护 App 去广告远程模块仓库，托管无第三方作者
 - Shadowrocket 原始链接：`https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/shadowrocket/Dingdong.srmodule`
 - 图标文件：[Dingdong.png](icons/Dingdong.png)（`https://fastly.jsdelivr.net/gh/AnTong-Git/Proxy_Suite_Modules@main/icons/Dingdong.png`）
 
-### 麦当劳
+### 🍟 麦当劳
 
 - Stash 一键安装（GitHub 页面可直接点击）：[点击直接拉起 Stash 安装](https://link.stash.ws/install-override/raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/stash/McDonalds.stoverride)
 - Stash 原始链接：`https://raw.githubusercontent.com/AnTong-Git/Proxy_Suite_Modules/main/stash/McDonalds.stoverride`

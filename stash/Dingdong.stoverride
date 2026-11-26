@@ -1,4 +1,4 @@
-name: '叮咚买菜'
+name: '🥬 叮咚买菜'
 desc: '拦截叮咚买菜开屏、开屏预加载与首页弹窗广告；保留绿卡会员与正常购物接口。'
 icon: https://fastly.jsdelivr.net/gh/AnTong-Git/Proxy_Suite_Modules@main/icons/Dingdong.png
 category: 'Proxy Suite'

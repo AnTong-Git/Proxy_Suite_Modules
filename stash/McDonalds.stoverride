@@ -1,4 +1,4 @@
-name: '麦当劳'
+name: '🍟 麦当劳'
 desc: '拦截麦当劳开屏排期（返回空日程 data.list=[]）与首页活动弹窗广告；保留点餐、会员与正常业务接口。'
 icon: https://fastly.jsdelivr.net/gh/AnTong-Git/Proxy_Suite_Modules@main/icons/McDonalds.png
 category: 'Proxy Suite'
